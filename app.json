@@ -5,7 +5,7 @@
   "keywords": [
     "STAR-MD-V2"
   ],
-  "repository": "https://github.com/Xcelsama/STAR-MD-V2/main",
+  "repository": "https://github.com/Hashim3233099/STAR-MD-V2/main",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
@@ -16,7 +16,7 @@
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "GuruBot~ANapwise"
     },
     "MODE": {
       "description": "mode public or private",
@@ -26,17 +26,17 @@
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": "*"
+      "value": "."
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
-      "value": ""
+      "value": "039bbcba-599f-41c8-8fd2-cab562485b82"
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
-      "value": ""
+      "value": "waqar-sc"
     },
     "statusview": {
       "description": "make it true if you want bot to view status",
@@ -51,7 +51,7 @@
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
